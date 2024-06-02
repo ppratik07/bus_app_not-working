@@ -13,3 +13,6 @@ app.listen(()=>{
 app.post('/register',(req,res)=>{
     const body = req.body.json();
 })
+app.post('/signin',(req,res)=>{
+    const body = req.body.json();
+})
